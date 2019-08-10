@@ -1,0 +1,19 @@
+{
+  "name": "api-products",
+  "version": "1.0.0",
+  "description": "Api in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jf2c/api-products.git"
+  },
+  "author": "Felipe Cesar <felipecesr@gmail.com> (http://felipecesar.com.br)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jf2c/api-products/issues"
+  },
+  "homepage": "https://github.com/jf2c/api-products#readme"
+}
