@@ -4,7 +4,7 @@
   "description": "Api in Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jf2c/api-products/issues"
   },
-  "homepage": "https://github.com/jf2c/api-products#readme"
+  "homepage": "https://github.com/jf2c/api-products#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
