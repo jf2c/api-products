@@ -18,5 +18,8 @@
   "homepage": "https://github.com/jf2c/api-products#readme",
   "devDependencies": {
     "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "mongoose": "^5.6.13"
   }
 }
