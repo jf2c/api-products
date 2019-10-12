@@ -1,0 +1,15 @@
+type Ingredient {
+  id: ID!
+  name: String!
+}
+
+type Mutation {
+  newIngredient(name: String!): Ingredient!
+  updateIngredient(id: ID!, name: String!): Ingredient!
+  removeIngredient(id: ID!): Ingredient!
+}
+
+type Query {
+  ingredients: [Ingredient]!
+  ingredient(id: ID!): Ingredient!
+}

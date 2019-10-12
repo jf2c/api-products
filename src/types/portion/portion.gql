@@ -1,0 +1,8 @@
+type Portion {
+  size: Int!
+  ingredient: Ingredient!
+}
+
+extend type Mutation {
+  newPortion(size: Int!, ingredient: [ID!]!): Portion!
+}
