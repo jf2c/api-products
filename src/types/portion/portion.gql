@@ -1,6 +1,7 @@
 type Portion {
   size: Int!
   ingredient: Ingredient!
+  recipe: Recipe!
 }
 
 extend type Mutation {

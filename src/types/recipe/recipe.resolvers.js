@@ -2,12 +2,14 @@ const { Recipe } = require('./recipe.model')
 const { Portion } = require('../portion/portion.model')
 
 const recipe = async (_, { id }) => {
-  const result = await Recipe.findById(id).populate({
-    path: 'ingredients',
-    populate: {
-      path: 'ingredient'
-    }
-  })
+  const result = await Recipe.findById(id)
+    .populate({
+      path: 'ingredients',
+      populate: {
+        path: 'ingredient'
+      }
+    })
+    .exec()
   return result
 }
 
